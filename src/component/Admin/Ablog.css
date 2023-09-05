@@ -1,0 +1,102 @@
+.Ablogcontainer {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+.ablogcontain {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+}
+
+
+.ablogcontain input[type="text"] {
+  width: 40%;
+}
+
+
+
+.ablogcontain textarea {
+  width: 40%;
+}
+
+.blogs-title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.ablogcontain form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  width: 50%;
+  margin: 20px auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.ablogcontain form label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.ablogcontain form input[type="text"],
+.ablogcontain form textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.ablogcontain form input[type="file"] {
+  margin-top: 10px;
+}
+
+.ablogcontain form button[type="submit"] {
+  background-color: #2454d6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  width: 50%;
+}
+
+.ablogcontain form button[type="submit"]:hover {
+  background-color: #245cea;
+}
+
+
+.ablogcontainer {
+  background-color: #4d4d4d;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.ablogcontain {
+  background-color: #bec3c4c6;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(208, 205, 205, 0.84);
+}
